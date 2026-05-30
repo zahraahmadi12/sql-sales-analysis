@@ -1,6 +1,6 @@
 # SQL Sales Analysis Project
 
-A hands-on SQL project built to demonstrate core data analyst skills using a realistic retail sales dataset. All queries run in **SQLite** — no server setup required.
+A SQL project built to demonstrate core data analyst skills using a realistic retail sales dataset. All queries run in **SQLite** — no server setup required.
 
 ---
 
@@ -44,14 +44,6 @@ A hands-on SQL project built to demonstrate core data analyst skills using a rea
 ```bash
 pip install pandas
 python3 load_data.py    # re-creates the DB from CSV if needed
-```
-
-### Option C: SQLite CLI
-```bash
-sqlite3 sales_analysis.db
-.mode column
-.headers on
--- paste any query below
 ```
 
 ---
